@@ -7,7 +7,11 @@ export function ProjectCard({ params }) {
     <div className="flex flex-col w-full rounded-2xl bg-indigo-100 border-2 border-indigo-100 ">
       <div className="relative rounded-2xl overflow-hidden">
         <a href={deploy} target="_blank" rel="noreferrer">
-          <img className="w-full h-48 object-fill" alt="app" src={thumbnail} />
+          <img
+            className="w-full h-48 object-fill hover:brightness-[80%] duration-150"
+            alt="app"
+            src={thumbnail}
+          />
         </a>
         <div className="absolute bottom-0 flex items-center w-full justify-between p-[4px] px-4 bg-indigo-50/60 backdrop-blur-sm">
           <h1 className="text-xl font-medium">{title}</h1>

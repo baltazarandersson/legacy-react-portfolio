@@ -3,7 +3,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 
 export function AboutMe() {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-start pt-32 gap-16">
+    <div className="w-full h-full flex flex-col items-center justify-start py-36 gap-16">
       <div className="h-auto flex flex-col gap-8">
         <div className=" flex w-full items-center justify-center gap-8">
           <h1 className="text-4xl font-medium ">About me</h1>
@@ -22,7 +22,7 @@ export function AboutMe() {
             <span className="font-semibold text-gray-800 px-2 rounded-xl bg-[#f7df1e]">
               JavaScript
             </span>{" "}
-            and Web Development since the past year
+            and Web Development since the past year.
           </p>
           <div className="flex items-center gap-2 absolute right-0   text-indigo-500">
             <HiOutlineLocationMarker size="24px" />

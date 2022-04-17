@@ -1,4 +1,3 @@
-export function useNavigate(page) {
-  let pageHeight = window.innerHeight;
-  window.scrollTo({ top: pageHeight * page, behavior: "smooth" });
+export function useNavigate(coord) {
+  window.scrollTo({ top: coord, behavior: "smooth" });
 }
