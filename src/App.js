@@ -70,7 +70,7 @@ export function App() {
       />
       <main className="w-5/6 md:w-2/3 relative mx-auto">
         <section
-          className="min-h-screen h-screen"
+          className={"min-h-screen h-screen"}
           ref={(childrenRef) => (sectionListRef.current[0] = childrenRef)}
         >
           <Home />
@@ -104,7 +104,7 @@ export function App() {
         </button>
         <footer className="h-16" />
       </main>
-      <div className="absolute p-[50px] top-[18vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      {/* <div className="absolute p-[50px] top-[18vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
       <div className="absolute p-[70px] top-[75vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
       <div className="absolute p-[150px] top-[35vh] left-[45vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
       <div className="absolute p-[30px] top-[75vh] left-[85vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
@@ -120,7 +120,7 @@ export function App() {
       <div className="absolute p-[20px] top-[520vh] left-[15vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
       <div className="absolute p-[40px] top-[560vh] left-[65vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
       <div className="absolute p-[130px] top-[625vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[30px] top-[665vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[30px] top-[665vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" /> */}
     </>
   );
 }
