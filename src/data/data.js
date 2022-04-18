@@ -3,6 +3,7 @@ import forecastThumb from "../assets/thumbnails/forecast.png";
 import giffiThumb from "../assets/thumbnails/giffi.png";
 import glacssifyThumb from "../assets/thumbnails/glacssify.png";
 import simonsaysThumb from "../assets/thumbnails/simonsays.png";
+import lolprofileThumb from "../assets/thumbnails/lolprofile.png";
 
 export const data = {
   projects: [
@@ -59,13 +60,13 @@ export const data = {
       deploy: "https://forecast-baltazar.vercel.app/",
     },
     {
-      thumbnail: "",
-      title: "LOL Profile Lookup",
+      thumbnail: lolprofileThumb,
+      title: "LOL Profile",
       description:
         "Project made to apply my knowledge of promises to create an app in where you can look for your LoL profile data.",
       tags: [{ title: "Personal proj.", color: "#4E4AC4" }],
-      repository: "",
-      deploy: "",
+      repository: "https://github.com/baltazarandersson/riot-league-profile",
+      deploy: "https://github.com/baltazarandersson/riot-league-profile",
     },
     {
       thumbnail: simonsaysThumb,

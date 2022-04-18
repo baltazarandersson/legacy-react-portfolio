@@ -8,7 +8,7 @@ export function ProjectCard({ params }) {
       <div className="relative rounded-2xl overflow-hidden">
         <a href={deploy} target="_blank" rel="noreferrer">
           <img
-            className="w-full h-48 object-fill hover:brightness-[80%] duration-150"
+            className="w-full h-48 sm:h-40 lg:h-48 object-fill hover:brightness-[80%] duration-150"
             alt="app"
             src={thumbnail}
           />
