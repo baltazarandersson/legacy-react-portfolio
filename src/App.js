@@ -104,23 +104,23 @@ export function App() {
         </button>
         <footer className="h-16" />
       </main>
-      {/* <div className="absolute p-[50px] top-[18vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[70px] top-[75vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[150px] top-[35vh] left-[45vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[30px] top-[75vh] left-[85vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[20px] top-[140vh] left-[5vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[40px] top-[175vh] left-[75vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[20px] top-[220vh] left-[90vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[100px] top-[220vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[50px] top-[290vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[30px] top-[350vh] left-[5vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[70px] top-[390vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[40px] top-[440vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[90px] top-[480vh] left-[75vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[20px] top-[520vh] left-[15vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[40px] top-[560vh] left-[65vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[130px] top-[625vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
-      <div className="absolute p-[30px] top-[665vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" /> */}
+      <div className="absolute p-[30px] sm:p-[50px] top-[10%] md:top-[18%] left-[15%] md:left-[20%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[50px] sm:p-[70px] top-[65%] md:top-[75%] left-[10%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[100px] sm:p-[120px] lg:p-[150px] top-[15%] md:top-[35%] left-[45%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[15px] sm:p-[30px] top-[75%] left-[85%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[20px] top-[160%] sm:top-[140%] left-[5%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[40px] top-[175%] left-[75%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[20px] top-[210%] sm:top-[220%] left-[70%] sm:left-[90%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[100px] top-[220%] left-[10%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[50px] top-[290%] left-[70%] sm:left-[80%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[30px] top-[350%] left-[5%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[70px] top-[390%] left-[60%] sm:left-[70%] md:left-[80%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[40px] top-[440%] left-[10%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[90px] top-[480%] left-[40%] sm:left-[60%] md:left-[75%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[20px] top-[520%] left-[15%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[40px] top-[560%] left-[65%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[130px] top-[625%] left-[20%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[30px] top-[665%] left-[80%] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
     </>
   );
 }
