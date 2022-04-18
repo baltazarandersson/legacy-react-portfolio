@@ -68,7 +68,7 @@ export function App() {
         currentSection={currentSection}
         sectionListRef={sectionListRef.current}
       />
-      <main className="w-2/3 relative mx-auto">
+      <main className="w-5/6 md:w-2/3 relative mx-auto">
         <section
           className="min-h-screen h-screen"
           ref={(childrenRef) => (sectionListRef.current[0] = childrenRef)}
@@ -102,6 +102,7 @@ export function App() {
         >
           <CgArrowDown size="28px" className="rotate-180 text-indigo-50" />
         </button>
+        <footer className="h-16" />
       </main>
       <div className="absolute p-[50px] top-[18vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
       <div className="absolute p-[70px] top-[75vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />

@@ -10,7 +10,7 @@ export function CoursesTimeline() {
             key={year.title}
             className="flex flex-col items-center w-full h-auto gap-8"
           >
-            <h1 className="text-3xl font-semibold text-indigo-50 px-8 py-2 bg-indigo-400 rounded-xl">
+            <h1 className="text-3xl font-semibold text-indigo-50 px-4 sm:px-8 py-1 sm:py-2 bg-indigo-400 rounded-xl">
               {year.title}
             </h1>
             <div className="flex w-full flex-col items-start gap-8">
@@ -28,7 +28,7 @@ export function CoursesTimeline() {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <div className="flex w-full items-center justify-between border-2 h-16 bg-indigo-100 border-indigo-100 rounded-full gap-8 pr-8 shadow-sm hover:scale-105 transition-transform">
+                            <div className="flex w-full items-center justify-between border-2 h-16 bg-indigo-100 border-indigo-100 rounded-full gap:4 sm:gap-8 pr-4 sm:pr-8 shadow-sm hover:scale-105 transition-transform">
                               <div className="flex items-center h-full gap-4">
                                 <img
                                   src={course.icon}
@@ -36,17 +36,17 @@ export function CoursesTimeline() {
                                   className="h-full rounded-full"
                                 />
                                 <div className="flex flex-col h-full justify-center">
-                                  <h2 className="font-semibold text-lg">
+                                  <h2 className="font-semibold text-sm sm:text-lg">
                                     {course.title}
                                   </h2>
-                                  <p className="font-bold text-indigo">
+                                  <p className="font-bold text-sm sm:text-base text-indigo">
                                     {course.author}
                                   </p>
                                 </div>
                               </div>
                               {course.certificate && (
                                 <div className="text-indigo-400 duration-200 hover:scale-110 hover:rotate-6">
-                                  <BiLink size="32px" />
+                                  <BiLink size="28px" />
                                 </div>
                               )}
                             </div>

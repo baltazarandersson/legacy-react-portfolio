@@ -40,7 +40,7 @@ export function Home() {
           Hey there, <br />
           I'm <span className="text-indigo ">Baltazar</span>
         </h1>
-        <h2 className="text-2xl font-light text-gray-400">
+        <h2 className="text-xl mdÑtext-2xl font-light text-gray-400">
           Frontend developer{" "}
         </h2>
         <button
