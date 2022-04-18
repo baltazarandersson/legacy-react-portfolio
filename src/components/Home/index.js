@@ -8,8 +8,8 @@ export function Home() {
   }
 
   return (
-    <div className="relative w-full h-full flex items-center justify-between pb-8">
-      <div className="flex flex-col gap-4">
+    <div className="relative w-full h-full flex flex-col md:flex-row items-center justify-evenly md:justify-between pb-16 md:pb-8">
+      <div className="flex flex-row md:flex-col gap-4">
         <a
           href="https://github.com/baltazarandersson"
           target="_blank"
@@ -36,7 +36,7 @@ export function Home() {
         </a>
       </div>
       <div className="flex flex-col gap-4">
-        <h1 className="text-5xl font-medium">
+        <h1 className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-medium">
           Hey there, <br />
           I'm <span className="text-indigo ">Baltazar</span>
         </h1>
@@ -44,7 +44,7 @@ export function Home() {
           Frontend developer{" "}
         </h2>
         <button
-          className="flex items-center gap-2 absolute bottom-12  transition-transform hover:translate-y-1"
+          className="hidden md:flex items-center gap-2 absolute bottom-12 transition-transform hover:translate-y-1"
           onClick={handleScroll}
         >
           <CgMouse size="28px" className="text-indigo" />
@@ -55,7 +55,7 @@ export function Home() {
         </button>
       </div>
       <img
-        className="w-64 h-64 rounded-full"
+        className="w-48 h-48 lg:w-64 lg:h-64 rounded-full"
         alt="me"
         src="https://media-exp1.licdn.com/dms/image/C4D03AQEuonGiWwNq6w/profile-displayphoto-shrink_800_800/0/1642964685927?e=1655337600&v=beta&t=BujOiwiCnSl7_Pr2FJGaX-5qcKBEvJpa9DlbtKOlRIE"
       />

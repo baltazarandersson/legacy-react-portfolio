@@ -95,7 +95,7 @@ export function App() {
         </section>
 
         <button
-          className={`fixed bottom-8 right-8 bg-gradient-to-br from-indigo-300 to-indigo-400 rounded-xl p-2 transition-all ${
+          className={`hidden md:block fixed bottom-8 right-8 bg-indigo-400 rounded-xl p-2 transition-all ${
             showButton ? "translate-y-0" : "translate-y-20"
           }`}
           onClick={() => navigateTo(0)}
@@ -103,12 +103,23 @@ export function App() {
           <CgArrowDown size="28px" className="rotate-180 text-indigo-50" />
         </button>
       </main>
-      <div className="absolute p-[50px] top-[18vh] left-[20vw] bg-gradient-to-br from-indigo-50 to-indigo-400 rounded-full brightness-110 -z-10" />
-      <div className="absolute p-[70px] top-[75vh] left-[10vw] bg-gradient-to-br from-indigo-50 to-indigo-400 rounded-full brightness-110 -z-10" />
-      <div className="absolute p-[150px] top-[35vh] left-[45vw] bg-gradient-to-br from-indigo-50 to-indigo-400 rounded-full brightness-110 -z-10" />
-      <div className="absolute p-[30px] top-[75vh] left-[85vw] bg-gradient-to-br from-indigo-50 to-indigo-400 rounded-full brightness-110 -z-10" />
-      <div className="absolute p-[20px] top-[140vh] left-[5vw] bg-gradient-to-br from-indigo-50 to-indigo-400 rounded-full brightness-110 -z-10" />
-      <div className="absolute p-[40px] top-[175vh] left-[75vw] bg-gradient-to-br from-indigo-50 to-indigo-400 rounded-full brightness-110 -z-10" />
+      <div className="absolute p-[50px] top-[18vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[70px] top-[75vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[150px] top-[35vh] left-[45vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[30px] top-[75vh] left-[85vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[20px] top-[140vh] left-[5vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[40px] top-[175vh] left-[75vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[20px] top-[220vh] left-[90vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[100px] top-[220vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[50px] top-[290vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[30px] top-[350vh] left-[5vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[70px] top-[390vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[40px] top-[440vh] left-[10vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[90px] top-[480vh] left-[75vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[20px] top-[520vh] left-[15vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[40px] top-[560vh] left-[65vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[130px] top-[625vh] left-[20vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
+      <div className="absolute p-[30px] top-[665vh] left-[80vw] bg-gradient-to-br from-indigo-50  to-indigo-400 rounded-full brightness-[108%] -z-10" />
     </>
   );
 }

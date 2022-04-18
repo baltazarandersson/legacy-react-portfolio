@@ -5,6 +5,7 @@
 body {
   font-family: "Poppins", sans-serif;
   @apply text-gray-800;
+  overflow-x: hidden;
 }
 
 * {

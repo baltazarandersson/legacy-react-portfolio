@@ -23,31 +23,34 @@ export function CoursesTimeline() {
                     <div className="w-full flex flex-col gap-4">
                       {month.courses.map((course) => {
                         return (
-                          <div className="flex w-full items-center justify-between border-2 h-16 border-indigo-100 rounded-full gap-8 pr-8 shadow-sm">
-                            <div className="flex items-center h-full gap-4">
-                              <img
-                                src={course.icon}
-                                alt="course"
-                                className="h-full rounded-full"
-                              />
-                              <div className="flex flex-col h-full justify-center">
-                                <h2 className="font-semibold text-lg">
-                                  {course.title}
-                                </h2>
-                                <p className="font-bold text-indigo">
-                                  {course.author}
-                                </p>
+                          <a
+                            href={course.certificate}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <div className="flex w-full items-center justify-between border-2 h-16 bg-indigo-100 border-indigo-100 rounded-full gap-8 pr-8 shadow-sm hover:scale-105 transition-transform">
+                              <div className="flex items-center h-full gap-4">
+                                <img
+                                  src={course.icon}
+                                  alt="course"
+                                  className="h-full rounded-full"
+                                />
+                                <div className="flex flex-col h-full justify-center">
+                                  <h2 className="font-semibold text-lg">
+                                    {course.title}
+                                  </h2>
+                                  <p className="font-bold text-indigo">
+                                    {course.author}
+                                  </p>
+                                </div>
                               </div>
+                              {course.certificate && (
+                                <div className="text-indigo-400 duration-200 hover:scale-110 hover:rotate-6">
+                                  <BiLink size="32px" />
+                                </div>
+                              )}
                             </div>
-                            {course.certificate && (
-                              <a
-                                href={course.certificate}
-                                className="text-indigo-400"
-                              >
-                                <BiLink size="32px" />
-                              </a>
-                            )}
-                          </div>
+                          </a>
                         );
                       })}
                     </div>

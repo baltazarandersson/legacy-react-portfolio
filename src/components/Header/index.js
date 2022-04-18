@@ -24,7 +24,7 @@ export function Header({ currentSection, sectionListRef }) {
   }
 
   return (
-    <header className="fixed  shadow-md px-8 w-2/3 left-1/2 -translate-x-1/2 h-12 top-8 backdrop-blur-lg bg-indigo-100 bg-opacity-70 rounded-2xl z-10">
+    <header className="fixed shadow-md px-8 w-screen md:w-2/3 left-1/2 -translate-x-1/2 h-12 bottom-0 md:top-8 backdrop-blur-lg bg-indigo-100 bg-opacity-70 rounded-2xl z-10">
       <AnimatedUnderline
         currentElement={currentSection}
         className="flex gap-4 items-center h-12"
