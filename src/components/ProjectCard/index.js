@@ -4,7 +4,7 @@ export function ProjectCard({ params }) {
   const { deploy, title, description, repository, tags, thumbnail } = params;
 
   return (
-    <div className="flex flex-col w-full rounded-2xl bg-indigo-100 border-2 border-indigo-100 ">
+    <div className="flex flex-col w-full rounded-2xl bg-indigo-100 border-2 border-indigo-100 shadow-sm">
       <div className="relative rounded-2xl overflow-hidden">
         <a href={deploy} target="_blank" rel="noreferrer">
           <img

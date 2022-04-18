@@ -95,7 +95,7 @@ export function App() {
         </section>
 
         <button
-          className={`fixed bottom-8 right-8 bg-indigo-400 rounded-xl p-2 transition-transform ${
+          className={`fixed bottom-8 right-8 bg-gradient-to-br from-indigo-300 to-indigo-400 rounded-xl p-2 transition-all ${
             showButton ? "translate-y-0" : "translate-y-20"
           }`}
           onClick={() => navigateTo(0)}
