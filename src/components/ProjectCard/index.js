@@ -38,7 +38,7 @@ export function ProjectCard({ params }) {
 
       <div className="w-full flex flex-col justify-between p-4 gap-4">
         <div>
-          <p>{description}</p>
+          <p className="dark:text-indigo-50">{description}</p>
         </div>
 
         <div className="flex items-center gap-2 overflow-x-auto w-full max-w-full">

@@ -55,11 +55,7 @@ export function Home() {
           </div>
         </button>
       </div>
-      <img
-        className="w-48 h-48 lg:w-64 lg:h-64 rounded-full"
-        alt="me"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQEuonGiWwNq6w/profile-displayphoto-shrink_800_800/0/1642964685927?e=1655337600&v=beta&t=BujOiwiCnSl7_Pr2FJGaX-5qcKBEvJpa9DlbtKOlRIE"
-      />
+      <img className="w-48 h-48 lg:w-64 lg:h-64 rounded-full" alt="me" src="" />
     </div>
   );
 }
