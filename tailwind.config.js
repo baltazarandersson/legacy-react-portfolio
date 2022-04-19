@@ -2,7 +2,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./public/**/*.{html,js}"],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        "3xl": "5px 5px 30px -15px rgba(0, 0, 0, 0.3)",
+      },
+    },
     colors: {
       indigo: {
         DEFAULT: "#6361AD",
