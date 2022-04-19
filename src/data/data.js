@@ -5,6 +5,17 @@ import glacssifyThumb from "../assets/thumbnails/glacssify.png";
 import simonsaysThumb from "../assets/thumbnails/simonsays.png";
 import lolprofileThumb from "../assets/thumbnails/lolprofile.png";
 
+import jsIcon from "../assets/technologies/javascript.svg";
+import html5Icon from "../assets/technologies/html5.svg";
+import css3Icon from "../assets/technologies/css3.svg";
+import reactIcon from "../assets/technologies/react.svg";
+import styledComponentsIcon from "../assets/technologies/styled-components.png";
+import tailwindIcon from "../assets/technologies/tailwind.svg";
+import gitIcon from "../assets/technologies/git.svg";
+import githubIcon from "../assets/technologies/github.png";
+import vercelIcon from "../assets/technologies/vercel.svg";
+import firebaseIcon from "../assets/technologies/firebase.svg";
+
 export const data = {
   projects: [
     {
@@ -190,6 +201,50 @@ export const data = {
           ],
         },
       ],
+    },
+  ],
+  technologies: [
+    {
+      alt: "javascript",
+      icon: jsIcon,
+    },
+    {
+      alt: "html5",
+      icon: html5Icon,
+    },
+    {
+      alt: "css3",
+      icon: css3Icon,
+    },
+    {
+      alt: "react",
+      icon: reactIcon,
+    },
+    {
+      alt: "styled-components",
+      icon: styledComponentsIcon,
+    },
+    {
+      alt: "tailwind",
+      icon: tailwindIcon,
+    },
+    {
+      alt: "git",
+      icon: gitIcon,
+    },
+    {
+      alt: "github",
+      icon: githubIcon,
+      class: "dark:invert",
+    },
+    {
+      alt: "vercel",
+      icon: vercelIcon,
+      class: "dark:invert",
+    },
+    {
+      alt: "firebase",
+      icon: firebaseIcon,
     },
   ],
 };

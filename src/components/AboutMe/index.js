@@ -1,4 +1,5 @@
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import { data } from "../../data/data";
 
 export function AboutMe() {
   return (
@@ -35,56 +36,15 @@ export function AboutMe() {
             <h1 className="text-3xl sm:text-4xl font-medium">Technologies</h1>
           </div>
           <div className="flex gap-4 w-full flex-wrap justify-between md:justify-start">
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
-              alt="js"
-              src="https://www.svgrepo.com/show/353925/javascript.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12 saturate-[120%]"
-              alt="html"
-              src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12 saturate-[120%]"
-              alt="css"
-              src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
-              alt="react"
-              src="https://www.svgrepo.com/show/354259/react.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
-              alt="styled-components"
-              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/271/nail-polish_1f485.png"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
-              alt="tailwind"
-              src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
-              alt="git"
-              src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12 dark:invert"
-              alt="github"
-              src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12 dark:invert"
-              alt="vercel"
-              src="https://www.svgrepo.com/show/306921/vercel.svg"
-            />
-            <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
-              alt="firebase"
-              src="https://www.svgrepo.com/show/353735/firebase.svg"
-            />
+            {data.technologies.map((el) => {
+              return (
+                <img
+                  className={"h-10 w-12 lg:h-12 lg:w-12 " + el.class}
+                  alt={el.alt}
+                  src={el.icon}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
