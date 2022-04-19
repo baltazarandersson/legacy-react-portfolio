@@ -6,18 +6,6 @@ import { MdOutlineNightsStay, MdOutlineWbSunny } from "react-icons/md";
 
 const sections = ["home", "about me", "projects", "qualification"];
 
-// const throttle = (func = () => null, delay = 100) => {
-//   let waiting;
-//   return (...args) => {
-//     if (waiting) return;
-//     func(...args);
-//     waiting = true;
-//     setTimeout(() => {
-//       waiting = false;
-//     }, delay);
-//   };
-// };
-
 export function Header({ currentSection, sectionListRef }) {
   const [darkMode, setDark] = useState(false);
   const navigateTo = useNavigate;
