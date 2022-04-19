@@ -55,7 +55,11 @@ export function Home() {
           </div>
         </button>
       </div>
-      <img className="w-48 h-48 lg:w-64 lg:h-64 rounded-full" alt="me" src="" />
+      <img
+        className="w-48 h-48 lg:w-64 lg:h-64 rounded-full"
+        alt="me"
+        src="https://avatars.githubusercontent.com/u/21319545?s=400&u=b4a4c13531622c5221190d0c4c6e0bb4fc694d1f&v=4"
+      />
     </div>
   );
 }
