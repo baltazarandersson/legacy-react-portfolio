@@ -90,11 +90,14 @@ export function Header({ currentSection, sectionListRef }) {
           </div>
         </button>
       </AnimatedUnderline>
-      <button onClick={() => setDark(!darkMode)}>
+      <button
+        onClick={() => setDark(!darkMode)}
+        className="hover:-rotate-[20deg] transition-transform rounded-full mb-[5px] md:mb-0"
+      >
         {darkMode ? (
-          <MdOutlineWbSunny size="28px" />
+          <MdOutlineWbSunny size="24px" />
         ) : (
-          <MdOutlineNightsStay size="28px" />
+          <MdOutlineNightsStay size="24px" />
         )}
       </button>
     </header>
