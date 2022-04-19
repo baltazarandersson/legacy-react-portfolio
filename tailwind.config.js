@@ -1,20 +1,21 @@
 module.exports = {
   content: ["./src/**/*.{html,js}", "./public/**/*.{html,js}"],
+  darkMode: "class",
   theme: {
     extend: {},
     colors: {
       indigo: {
-        DEFAULT: "#4E4AC4",
-        50: "#F7F7FC",
-        100: "#E5E4F6",
-        200: "#BFBEEA",
-        300: "#9997DD",
-        400: "#7471D1",
-        500: "#4E4AC4",
-        600: "#3835A2",
-        700: "#2A2777",
-        800: "#1B194D",
-        900: "#0C0B23",
+        DEFAULT: "#6361AD",
+        50: "#F8F8FC",
+        100: "#E5E5F5",
+        200: "#C0BFE8",
+        300: "#9A98DC",
+        400: "#7875CC",
+        500: "#5B58B6",
+        600: "#474491",
+        700: "#373668",
+        800: "#242343",
+        900: "#10101E",
       },
       gray: {
         DEFAULT: "#6B7280",

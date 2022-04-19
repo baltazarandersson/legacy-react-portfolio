@@ -14,7 +14,7 @@ export function Home() {
           href="https://github.com/baltazarandersson"
           target="_blank"
           rel="noreferrer"
-          className="text-indigo transition-transform duration-200 hover:scale-[1.2]"
+          className="text-indigo dark:text-indigo-400 transition-transform duration-200 hover:scale-[1.2]"
         >
           <FiGithub size="28px" />
         </a>
@@ -22,7 +22,7 @@ export function Home() {
           href="https://www.linkedin.com/in/baltazar-andersson/"
           target="_blank"
           rel="noreferrer"
-          className="text-indigo transition-transform duration-200 hover:scale-[1.2]"
+          className="text-indigo dark:text-indigo-400 transition-transform duration-200 hover:scale-[1.2]"
         >
           <FiLinkedin size="28px" />
         </a>
@@ -30,7 +30,7 @@ export function Home() {
           href="https://www.instagram.com/baltazarpezelj/"
           target="_blank"
           rel="noreferrer"
-          className="text-indigo transition-transform duration-200 hover:scale-[1.2]"
+          className="text-indigo dark:text-indigo-400 transition-transform duration-200 hover:scale-[1.2]"
         >
           <FiInstagram size="28px" />
         </a>
@@ -38,19 +38,20 @@ export function Home() {
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-medium">
           Hey there, <br />
-          I'm <span className="text-indigo ">Baltazar</span>
+          I'm{" "}
+          <span className="text-indigo dark:text-indigo-400 ">Baltazar</span>
         </h1>
-        <h2 className="text-xl mdÑtext-2xl font-light text-gray-400">
+        <h2 className="text-xl mdÑtext-2xl font-light text-gray-400 dark:text-gray-500">
           Frontend developer{" "}
         </h2>
         <button
           className="hidden md:flex items-center gap-2 absolute bottom-12 transition-transform hover:translate-y-1"
           onClick={handleScroll}
         >
-          <CgMouse size="28px" className="text-indigo" />
+          <CgMouse size="28px" className="text-indigo dark:text-indigo-400" />
           <div className="flex items-center gap-1">
             <p>Scroll down</p>
-            <CgArrowDown className="text-indigo" />
+            <CgArrowDown className="text-indigo dark:text-indigo-400" />
           </div>
         </button>
       </div>

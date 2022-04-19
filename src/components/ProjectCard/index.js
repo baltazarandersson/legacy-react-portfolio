@@ -4,7 +4,7 @@ export function ProjectCard({ params }) {
   const { deploy, title, description, repository, tags, thumbnail } = params;
 
   return (
-    <div className="flex flex-col w-full rounded-2xl bg-indigo-100 border-2 border-indigo-100 shadow-sm">
+    <div className="flex flex-col w-full rounded-2xl bg-indigo-100 dark:bg-indigo-700 border-2 border-indigo-100 dark:border-indigo-700 shadow-sm">
       <div className="relative rounded-2xl overflow-hidden">
         <a href={deploy} target="_blank" rel="noreferrer">
           <img
@@ -14,13 +14,13 @@ export function ProjectCard({ params }) {
           />
         </a>
         <div className="absolute bottom-0 flex items-center w-full justify-between p-[4px] px-4 bg-indigo-50/60 backdrop-blur-sm">
-          <h1 className="text-xl font-medium">{title}</h1>
+          <h1 className="text-xl font-medium dark:text-gray-800">{title}</h1>
           <div className="flex items-center gap-4">
             <a
               href={repository}
               target="_blank"
               rel="noreferrer"
-              className="hover:scale-125 transition-transform"
+              className="hover:scale-125 transition-transform dark:text-gray-800"
             >
               <FiGithub size="20px" />
             </a>
@@ -28,7 +28,7 @@ export function ProjectCard({ params }) {
               href={deploy}
               target="_blank"
               rel="noreferrer"
-              className="hover:scale-125 transition-transform"
+              className="hover:scale-125 transition-transform dark:text-gray-800"
             >
               <FiExternalLink size="20px" />
             </a>

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "../../hooks/useNavigate";
 import { AnimatedUnderline } from "../AnimatedUnderline";
 import { BiHomeAlt, BiUser, BiCollection, BiFile } from "react-icons/bi";
+import { MdOutlineNightsStay, MdOutlineWbSunny } from "react-icons/md";
 
 const sections = ["home", "about me", "projects", "qualification"];
 
@@ -18,14 +19,19 @@ const sections = ["home", "about me", "projects", "qualification"];
 // };
 
 export function Header({ currentSection, sectionListRef }) {
+  const [darkMode, setDark] = useState(false);
   const navigateTo = useNavigate;
   function handleClick(el) {
     let elCoordY = el.offsetTop;
     navigateTo(elCoordY);
   }
 
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark");
+  }, [darkMode]);
+
   return (
-    <header className="fixed shadow-md px-8 w-full md:w-2/3 left-0 md:left-1/2 md:-translate-x-1/2 h-12 bottom-0 md:top-8 backdrop-blur-lg bg-indigo-100 bg-opacity-70 md:rounded-2xl z-10">
+    <header className="fixed flex justify-between shadow-md px-8 w-full md:w-2/3 left-0 md:left-1/2 md:-translate-x-1/2 h-12 bottom-0 md:top-8 backdrop-blur-lg bg-indigo-100/70 dark:bg-indigo-700/70 md:rounded-2xl z-10">
       <AnimatedUnderline
         currentElement={currentSection}
         className="flex gap-8 md:gap-4 items-center justify-center md:justify-start h-12"
@@ -33,7 +39,11 @@ export function Header({ currentSection, sectionListRef }) {
       >
         <button
           onClick={() => handleClick(sectionListRef[0])}
-          className={sections[currentSection] === "home" ? "text-indigo" : ""}
+          className={
+            sections[currentSection] === "home"
+              ? "text-indigo dark:text-indigo-300 dark:font-medium"
+              : ""
+          }
         >
           <p className="hidden md:block">Home</p>
           <div className="block md:hidden">
@@ -43,7 +53,9 @@ export function Header({ currentSection, sectionListRef }) {
         <button
           onClick={() => handleClick(sectionListRef[1])}
           className={
-            sections[currentSection] === "about me" ? "text-indigo" : ""
+            sections[currentSection] === "about me"
+              ? "text-indigo dark:text-indigo-300 dark:font-medium"
+              : ""
           }
         >
           <p className="hidden md:block">About me</p>
@@ -54,7 +66,9 @@ export function Header({ currentSection, sectionListRef }) {
         <button
           onClick={() => handleClick(sectionListRef[2])}
           className={
-            sections[currentSection] === "projects" ? "text-indigo" : ""
+            sections[currentSection] === "projects"
+              ? "text-indigo dark:text-indigo-300 dark:font-medium"
+              : ""
           }
         >
           <p className="hidden md:block">Projects</p>
@@ -65,7 +79,9 @@ export function Header({ currentSection, sectionListRef }) {
         <button
           onClick={() => handleClick(sectionListRef[3])}
           className={
-            sections[currentSection] === "qualification" ? "text-indigo" : ""
+            sections[currentSection] === "qualification"
+              ? "text-indigo dark:text-indigo-300 dark:font-medium"
+              : ""
           }
         >
           <p className="hidden md:block">Qualification</p>
@@ -74,6 +90,13 @@ export function Header({ currentSection, sectionListRef }) {
           </div>
         </button>
       </AnimatedUnderline>
+      <button onClick={() => setDark(!darkMode)}>
+        {darkMode ? (
+          <MdOutlineWbSunny size="28px" />
+        ) : (
+          <MdOutlineNightsStay size="28px" />
+        )}
+      </button>
     </header>
   );
 }

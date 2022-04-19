@@ -10,7 +10,7 @@ export function AboutMe() {
         <div className="relative">
           <p className="text-xl sm:text-2xl">
             I am
-            <span className="font-semibold text-indigo">
+            <span className="font-semibold text-indigo dark:text-indigo-400">
               {" "}
               Baltazar Andersson
             </span>
@@ -23,7 +23,7 @@ export function AboutMe() {
             </span>{" "}
             and Web Development since the past year.
           </p>
-          <div className="hidden sm:flex items-center gap-2 absolute right-0 text-indigo-500">
+          <div className="hidden sm:flex items-center gap-2 absolute right-0 text-indigo dark:text-indigo-400">
             <HiOutlineLocationMarker size="24px" />
             <p className="text-xl font-medium">Uruguay</p>
           </div>
@@ -71,12 +71,12 @@ export function AboutMe() {
               src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"
             />
             <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
+              className="h-10 w-12 lg:h-12 lg:w-12 dark:invert"
               alt="github"
               src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
             />
             <img
-              className="h-10 w-12 lg:h-12 lg:w-12"
+              className="h-10 w-12 lg:h-12 lg:w-12 dark:invert"
               alt="vercel"
               src="https://www.svgrepo.com/show/306921/vercel.svg"
             />
