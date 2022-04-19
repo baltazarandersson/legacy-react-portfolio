@@ -7,6 +7,7 @@ import { useNavigate } from "./hooks/useNavigate";
 import { Projects } from "./components/Projects";
 import { Courses } from "./components/Courses";
 import { Circles } from "./components/Circles";
+import { Footer } from "./components/Footer";
 
 const DEFAULT_THRESHOLD = 0.5;
 
@@ -96,15 +97,17 @@ export function App() {
         </section>
 
         <button
-          className={`hidden md:block fixed bottom-8 right-8 bg-indigo-400 dark:bg-indigo-600 rounded-xl p-2 transition-all ${
+          className={`hidden md:block fixed bottom-8 right-8 bg-indigo-400 dark:bg-indigo-600 rounded-xl p-2 transition-all z-10 ${
             showButton ? "translate-y-0" : "translate-y-20"
           }`}
           onClick={() => navigateTo(0)}
         >
           <CgArrowDown size="28px" className="rotate-180 text-indigo-50" />
         </button>
-        <footer className="h-16" />
       </main>
+
+      <Footer />
+
       <Circles />
     </>
   );
