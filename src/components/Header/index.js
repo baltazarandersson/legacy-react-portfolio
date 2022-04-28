@@ -7,7 +7,7 @@ import { MdOutlineNightsStay, MdOutlineWbSunny } from "react-icons/md";
 const sections = ["home", "about me", "projects", "qualification"];
 
 export function Header({ currentSection, sectionListRef }) {
-  const [darkMode, setDark] = useState(false);
+  const [darkMode, setDark] = useState(true);
   const navigateTo = useNavigate;
   function handleClick(el) {
     let elCoordY = el.offsetTop;
