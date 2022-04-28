@@ -5,4 +5,4 @@
 - React.js
 - Tailwind.css
 
-## [Portfolio deploy](https://baltazar.vercel.app/)
+## [web deploy](https://baltazar.vercel.app/)

@@ -98,11 +98,16 @@ export const data = {
           title: "April",
           courses: [
             {
+              title: "Curso de React Avanzado",
+              icon: "https://static.platzi.com/media/achievements/badge-reactjs-avanzado-bc9f61e9-9a1a-485b-b0ad-43a172cdb0aa.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1601-react-avanzado/diploma/detalle/",
+            },
+            {
               title: "Curso de Manipulación del DOM",
               icon: "https://static.platzi.com/media/achievements/badge-manipulacion-dom-js-68f056c0-11d4-4533-8c75-693db60d85f8.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/2193-dom/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/2193-dom/diploma/detalle/",
             },
           ],
         },
@@ -110,17 +115,16 @@ export const data = {
           title: "March",
           courses: [
             {
-              title: "Curso de React desde cero",
+              title: "Curso de React",
               icon: "https://midu.dev/favicon/apple-touch-icon.png",
               author: "midudev",
-              certificate: undefined,
+              link: "https://youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC",
             },
             {
               title: "Curso de Introducción a React.js",
               icon: "https://static.platzi.com/media/achievements/badge-react-2018-0a41bdc5-e874-45c9-ac67-98294c898da4.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/2444-react/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/2444-react/diploma/detalle/",
             },
           ],
         },
@@ -131,36 +135,31 @@ export const data = {
               title: "Curso de Closures y Scope en JavaScript",
               icon: "https://static.platzi.com/media/achievements/badge-_closures-scope-javascript-3848a8e7-cf6f-47c5-a824-df5fc0c14d41.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/1807-scope/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/1807-scope/diploma/detalle/",
             },
             {
               title: "Curso de Asincronismo con JavaScript",
               icon: "https://static.platzi.com/media/achievements/badge-asincronismo-javascript-3f44d51e-209e-4e47-a228-4142d049525c.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/1789-asincronismo-js/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/1789-asincronismo-js/diploma/detalle/",
             },
             {
               title: "Curso Profesional de Git y GitHub",
               icon: "https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/1557-git-github/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/1557-git-github/diploma/detalle/",
             },
             {
               title: "Curso Práctico de JavaScript",
               icon: "https://static.platzi.com/media/achievements/badge3-practico-javascript-d081180f-b158-446b-a34e-e658111a3680.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/2327-javascript-practico/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/2327-javascript-practico/diploma/detalle/",
             },
             {
               title: "Curso Práctico de HTML y CSS",
               icon: "https://static.platzi.com/media/achievements/badge-practico-html-css-1-106665ee-bf4f-4301-8991-1fab9e54a73e.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/1758-html-practico/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/1758-html-practico/diploma/detalle/",
             },
           ],
         },
@@ -171,8 +170,7 @@ export const data = {
               title: "Curso Básico de JavaScript",
               icon: "https://static.platzi.com/media/achievements/badge-basicojs-e2ead888-428e-4f55-962c-8894aeaeacda.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/1814-basico-javascript/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/1814-basico-javascript/diploma/detalle/",
             },
           ],
         },
@@ -188,15 +186,13 @@ export const data = {
               title: "Curso de Frontend Developer",
               icon: "https://static.platzi.com/media/achievements/badge-curso-frontend-developer-825407d1-49b1-4c9b-90c4-eee793720ede.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/2467-frontend-developer/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/2467-frontend-developer/diploma/detalle/",
             },
             {
               title: "Curso Práctico de Frontend Developer",
               icon: "https://static.platzi.com/media/achievements/badge-curso-practico-frontend-developer-d28c2eb0-cd3e-4951-bb96-5f1bcab2add5.png",
               author: "Platzi",
-              certificate:
-                "https://platzi.com/p/baltazarander/curso/2477-frontend-developer-practico/diploma/detalle/",
+              link: "https://platzi.com/p/baltazarander/curso/2477-frontend-developer-practico/diploma/detalle/",
             },
           ],
         },
