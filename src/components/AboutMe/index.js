@@ -39,6 +39,7 @@ export function AboutMe() {
             {data.technologies.map((el) => {
               return (
                 <img
+                  key={el.alt}
                   className={"h-10 w-12 lg:h-12 lg:w-12 " + el.class}
                   alt={el.alt}
                   src={el.icon}

@@ -7,7 +7,7 @@ import { MdOutlineNightsStay, MdOutlineWbSunny } from "react-icons/md";
 const sections = ["home", "about me", "projects", "qualification"];
 
 export function Header({ currentSection, sectionListRef }) {
-  const [darkMode, setDark] = useState(true);
+  const [darkMode, setDark] = useState(false);
   const navigateTo = useNavigate;
   function handleClick(el) {
     let elCoordY = el.offsetTop;
@@ -15,6 +15,7 @@ export function Header({ currentSection, sectionListRef }) {
   }
 
   useEffect(() => {
+    console.log("a");
     document.documentElement.classList.toggle("dark");
   }, [darkMode]);
 

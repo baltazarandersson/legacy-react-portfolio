@@ -22,7 +22,7 @@ export function CoursesTimeline() {
                     </h1>
                     <div className="w-full flex flex-col gap-4">
                       {month.courses.map((course) => {
-                        return <CourseCard course={course} />;
+                        return <CourseCard key={course.link} course={course} />;
                       })}
                     </div>
                   </>
