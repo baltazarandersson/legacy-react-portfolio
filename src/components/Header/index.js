@@ -15,8 +15,8 @@ export function Header({ currentSection, sectionListRef }) {
   }
 
   useEffect(() => {
-    console.log("a");
     document.documentElement.classList.toggle("dark");
+    return document.documentElement.classList.remove("dark");
   }, [darkMode]);
 
   return (

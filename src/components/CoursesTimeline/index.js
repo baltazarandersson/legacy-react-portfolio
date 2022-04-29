@@ -16,7 +16,7 @@ export function CoursesTimeline() {
             <div className="flex w-full flex-col items-start gap-8">
               {year.months.map((month) => {
                 return (
-                  <>
+                  <div key={month.title}>
                     <h1 className="text-2xl w-fit font-semibold text-indigo-50 px-4 bg-indigo-400 dark:bg-indigo-600  rounded-xl">
                       {month.title}
                     </h1>
@@ -25,7 +25,7 @@ export function CoursesTimeline() {
                         return <CourseCard key={course.link} course={course} />;
                       })}
                     </div>
-                  </>
+                  </div>
                 );
               })}
             </div>
