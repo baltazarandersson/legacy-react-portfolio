@@ -14,10 +14,10 @@ export function Header({ currentSection, sectionListRef }) {
     navigateTo(elCoordY);
   }
 
-  useEffect(() => {
+  function handleChangeTheme() {
     document.documentElement.classList.toggle("dark");
-    return document.documentElement.classList.remove("dark");
-  }, [darkMode]);
+    setDark(!darkMode);
+  }
 
   return (
     <header className="fixed flex justify-between shadow-md px-8 w-full md:w-2/3 left-0 md:left-1/2 md:-translate-x-1/2 h-12 bottom-0 md:top-8 backdrop-blur-lg bg-indigo-100/70 dark:bg-indigo-700/70 md:rounded-2xl z-10">
@@ -80,7 +80,7 @@ export function Header({ currentSection, sectionListRef }) {
         </button>
       </AnimatedUnderline>
       <button
-        onClick={() => setDark(!darkMode)}
+        onClick={() => handleChangeTheme()}
         className="hover:-rotate-[20deg] transition-transform rounded-full mb-[5px] md:mb-0"
       >
         {darkMode ? (
