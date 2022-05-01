@@ -98,6 +98,12 @@ export const data = {
           title: "April",
           courses: [
             {
+              title: "Curso Profesional de JavaScript",
+              icon: "https://static.platzi.com/media/achievements/badge-profesional-javascript-13538df2-24ce-433f-9aa6-e34eed608e70.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1642-javascript-profesional/diploma/detalle/",
+            },
+            {
               title: "Curso de React Avanzado",
               icon: "https://static.platzi.com/media/achievements/badge-reactjs-avanzado-bc9f61e9-9a1a-485b-b0ad-43a172cdb0aa.png",
               author: "Platzi",
