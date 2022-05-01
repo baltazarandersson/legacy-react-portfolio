@@ -1,4 +1,5 @@
-import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { SiPlatzi } from "react-icons/si";
 import { CgMouse, CgArrowDown } from "react-icons/cg";
 
 export function Home() {
@@ -27,12 +28,12 @@ export function Home() {
           <FiLinkedin size="28px" />
         </a>
         <a
-          href="https://www.instagram.com/baltazarpezelj/"
+          href="https://platzi.com/p/baltazarander/"
           target="_blank"
           rel="noreferrer"
           className="text-indigo dark:text-indigo-400 transition-transform duration-200 hover:scale-[1.2]"
         >
-          <FiInstagram size="28px" />
+          <SiPlatzi size="28px" />
         </a>
       </div>
       <div className="flex flex-col gap-4">

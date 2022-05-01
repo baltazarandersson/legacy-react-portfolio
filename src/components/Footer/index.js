@@ -1,4 +1,5 @@
-import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { SiPlatzi } from "react-icons/si";
 
 export function Footer() {
   return (
@@ -26,12 +27,12 @@ export function Footer() {
               <FiLinkedin size="100%" />
             </a>
             <a
-              href="https://www.instagram.com/baltazarpezelj/"
+              href="https://platzi.com/p/baltazarander/"
               target="_blank"
               rel="noreferrer"
               className="text-indigo-50 transition-transform duration-200 hover:scale-[1.2] h-5 w-5 sm:h-7 sm:w-7"
             >
-              <FiInstagram size="100%" />
+              <SiPlatzi size="100%" />
             </a>
           </div>
         </div>
