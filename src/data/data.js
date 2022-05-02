@@ -96,6 +96,17 @@ export const data = {
       title: "2022",
       months: [
         {
+          title: "May",
+          courses: [
+            {
+              title: "Curso Práctico de React.js",
+              icon: "https://static.platzi.com/media/achievements/piezas-reactjs-badge-1-52e950ac-c75c-40f5-94e0-8b6cab392ed2.png ",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2484-react-practico/diploma/detalle/",
+            },
+          ],
+        },
+        {
           title: "April",
           courses: [
             {
