@@ -1,6 +1,7 @@
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { SiPlatzi } from "react-icons/si";
 import { CgMouse, CgArrowDown } from "react-icons/cg";
+import profilePicture from "../../assets/pictures/me.png";
 
 export function Home() {
   function handleScroll() {
@@ -57,9 +58,9 @@ export function Home() {
         </button>
       </div>
       <img
-        className="w-48 h-48 lg:w-64 lg:h-64 rounded-full shadow-3xl"
+        className="w-48 h-48 lg:w-64 lg:h-64 rounded-full shadow-3xl bg-indigo-400"
         alt="me"
-        src="https://avatars.githubusercontent.com/u/21319545?s=400&u=b4a4c13531622c5221190d0c4c6e0bb4fc694d1f&v=4"
+        src={profilePicture}
       />
     </div>
   );
