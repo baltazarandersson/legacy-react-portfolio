@@ -15,6 +15,7 @@ import gitIcon from "../assets/technologies/git.svg";
 import githubIcon from "../assets/technologies/github.png";
 import vercelIcon from "../assets/technologies/vercel.svg";
 import firebaseIcon from "../assets/technologies/firebase.svg";
+import reduxIcon from "../assets/technologies/redux.svg";
 
 export const data = {
   projects: [
@@ -247,6 +248,10 @@ export const data = {
     {
       alt: "firebase",
       icon: firebaseIcon,
+    },
+    {
+      alt: "redux",
+      icon: reduxIcon,
     },
   ],
 };
