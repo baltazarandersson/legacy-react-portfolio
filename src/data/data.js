@@ -1,3 +1,4 @@
+import pokeduxThumb from "../assets/thumbnails/pokedux.png";
 import chattioThumb from "../assets/thumbnails/chattio.png";
 import forecastThumb from "../assets/thumbnails/forecast.png";
 import giffiThumb from "../assets/thumbnails/giffi.png";
@@ -19,6 +20,20 @@ import reduxIcon from "../assets/technologies/redux.svg";
 
 export const data = {
   projects: [
+    {
+      thumbnail: pokeduxThumb,
+      title: "Pokedux",
+      description:
+        "Small project made with the Redux course of platzi in where I learned how to use the Redux store and Redux toolkit",
+      tags: [
+        { title: "Course proj.", color: "#4E4AC4" },
+        { title: "React", color: "#0098B3" },
+        { title: "Semantic.ui", color: "#35bdb2" },
+        { title: "Redux", color: "#764abc" },
+      ],
+      repository: "https://github.com/baltazarandersson/pokedux",
+      deploy: "https://pokedux.vercel.app/",
+    },
     {
       thumbnail: chattioThumb,
       title: "Chattio",
@@ -99,8 +114,14 @@ export const data = {
           title: "May",
           courses: [
             {
+              title: "Curso Profesional de React.js y Redux",
+              icon: "https://static.platzi.com/media/achievements/profesional-reactjs-redux-badge-d4b20cc9-4404-4741-b1dc-ebe21ecdc7b9.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2740-redux-profesional/diploma/detalle/",
+            },
+            {
               title: "Curso Práctico de React.js",
-              icon: "https://static.platzi.com/media/achievements/piezas-reactjs-badge-1-52e950ac-c75c-40f5-94e0-8b6cab392ed2.png ",
+              icon: "https://static.platzi.com/media/achievements/piezas-reactjs-badge-1-52e950ac-c75c-40f5-94e0-8b6cab392ed2.png",
               author: "Platzi",
               link: "https://platzi.com/p/baltazarander/curso/2484-react-practico/diploma/detalle/",
             },
@@ -184,6 +205,12 @@ export const data = {
         {
           title: "January",
           courses: [
+            {
+              title: "Fundamentos de JavaScript",
+              icon: "https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1339-fundamentos-javascript-2018/diploma/detalle/",
+            },
             {
               title: "Curso Básico de JavaScript",
               icon: "https://static.platzi.com/media/achievements/badge-basicojs-e2ead888-428e-4f55-962c-8894aeaeacda.png",
