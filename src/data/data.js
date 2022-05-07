@@ -114,6 +114,12 @@ export const data = {
           title: "May",
           courses: [
             {
+              title: "Curso de Consumo de API REST con JavaScript",
+              icon: "https://static.platzi.com/media/achievements/image-0ca92613-cd68-4147-993c-751978c2a554.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2985-api/diploma/detalle/",
+            },
+            {
               title: "Curso Profesional de React.js y Redux",
               icon: "https://static.platzi.com/media/achievements/profesional-reactjs-redux-badge-d4b20cc9-4404-4741-b1dc-ebe21ecdc7b9.png",
               author: "Platzi",
