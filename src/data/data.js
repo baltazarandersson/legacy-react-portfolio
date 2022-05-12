@@ -5,7 +5,7 @@ import giffiThumb from "../assets/thumbnails/giffi.png";
 import glacssifyThumb from "../assets/thumbnails/glacssify.png";
 import simonsaysThumb from "../assets/thumbnails/simonsays.png";
 import lolprofileThumb from "../assets/thumbnails/lolprofile.png";
-import countryQuizThumb from "../assets/thumbnails/countryQuiz.png";
+import countryQuizThumb from "../assets/thumbnails/countryquiz.png";
 
 import jsIcon from "../assets/technologies/javascript.svg";
 import html5Icon from "../assets/technologies/html5.svg";
