@@ -5,6 +5,7 @@ import giffiThumb from "../assets/thumbnails/giffi.png";
 import glacssifyThumb from "../assets/thumbnails/glacssify.png";
 import simonsaysThumb from "../assets/thumbnails/simonsays.png";
 import lolprofileThumb from "../assets/thumbnails/lolprofile.png";
+import countryQuizThumb from "../assets/thumbnails/countryQuiz.png";
 
 import jsIcon from "../assets/technologies/javascript.svg";
 import html5Icon from "../assets/technologies/html5.svg";
@@ -21,15 +22,29 @@ import reduxIcon from "../assets/technologies/redux.svg";
 export const data = {
   projects: [
     {
+      thumbnail: countryQuizThumb,
+      title: "Country Quiz",
+      description:
+        "Challenge from devchallenges.io in where I made a small quiz game to practice with Redux Toolkit and Redux thunks",
+      tags: [
+        { title: "Challenge proj.", color: "#4E4AC4" },
+        { title: "React", color: "#0098B3" },
+        { title: "Redux", color: "#764abc" },
+        { title: "Tailwind", color: "#0098B3" },
+      ],
+      repository: "https://github.com/baltazarandersson/country-quiz",
+      deploy: "https://countryquiz.vercel.app/",
+    },
+    {
       thumbnail: pokeduxThumb,
       title: "Pokedux",
       description:
-        "Small project made with the Redux course of platzi in where I learned how to use the Redux store and Redux toolkit",
+        "Small project made with the Redux course of Platzi in where I learned how to use the Redux store and Redux Toolkit",
       tags: [
         { title: "Course proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
-        { title: "Semantic.ui", color: "#35bdb2" },
         { title: "Redux", color: "#764abc" },
+        { title: "Semantic.ui", color: "#35bdb2" },
       ],
       repository: "https://github.com/baltazarandersson/pokedux",
       deploy: "https://pokedux.vercel.app/",
