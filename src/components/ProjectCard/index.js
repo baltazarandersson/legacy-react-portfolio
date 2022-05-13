@@ -24,14 +24,16 @@ export function ProjectCard({ params }) {
             >
               <FiGithub size="20px" />
             </a>
-            <a
-              href={deploy}
-              target="_blank"
-              rel="noreferrer"
-              className="hover:scale-125 transition-transform dark:text-gray-800"
-            >
-              <FiExternalLink size="20px" />
-            </a>
+            {deploy && (
+              <a
+                href={deploy}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:scale-125 transition-transform dark:text-gray-800"
+              >
+                <FiExternalLink size="20px" />
+              </a>
+            )}
           </div>
         </div>
       </div>

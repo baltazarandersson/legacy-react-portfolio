@@ -108,7 +108,7 @@ export const data = {
         "Project made to apply my knowledge of promises to create an app in where you can look for your LoL profile data.",
       tags: [{ title: "Personal proj.", color: "#4E4AC4" }],
       repository: "https://github.com/baltazarandersson/riot-league-profile",
-      deploy: "https://github.com/baltazarandersson/riot-league-profile",
+      deploy: null,
     },
     {
       thumbnail: simonsaysThumb,
