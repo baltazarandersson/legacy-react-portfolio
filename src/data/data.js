@@ -53,7 +53,7 @@ export const data = {
       thumbnail: chattioThumb,
       title: "Chattio",
       description:
-        "Personal project in where I wanted to work with real time requests and learn Tailwind while creating an instant messaging chat app.",
+        "Personal project in where I wanted to work with real time requests, learn about user authentication and Tailwind while creating an instant messaging app.",
       tags: [
         { title: "Personal proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -67,7 +67,7 @@ export const data = {
       thumbnail: giffiThumb,
       title: "GIFFI",
       description:
-        "A GIF search app made with the full React course of midudev, a well packed course of React full of useful knowledge.",
+        "A GIF search app made with the full React course of midudev, in where you also learn about Routers, intersection observer API, React context, Vercel and more.",
       tags: [
         { title: "Course proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -80,7 +80,7 @@ export const data = {
       thumbnail: glacssifyThumb,
       title: "Glacssify",
       description:
-        "This is a tiny project I made to practice styled-components library.",
+        "This is a tiny project I made to practice the styled-components library.",
       tags: [
         { title: "Personal proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -93,7 +93,7 @@ export const data = {
       thumbnail: forecastThumb,
       title: "Forecast app",
       description:
-        "Challenge from devchallenges, in where I decided to test my abilities managin APIs, and in the same way, learn some React.",
+        "Challenge from devchallenges.io in where I decided to test my abilities managin API requests and learn React.",
       tags: [
         { title: "Challenge proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -105,7 +105,7 @@ export const data = {
       thumbnail: lolprofileThumb,
       title: "LOL Profile",
       description:
-        "Project made to apply my knowledge of promises to create an app in where you can look for your LoL profile data.",
+        "Project made to apply my knowledge of asynchronism to create an app in where you can look for your LoL profile data.",
       tags: [{ title: "Personal proj.", color: "#4E4AC4" }],
       repository: "https://github.com/baltazarandersson/riot-league-profile",
       deploy: null,
@@ -114,7 +114,7 @@ export const data = {
       thumbnail: simonsaysThumb,
       title: "Simon says",
       description:
-        "The classic simon says game made with vanilla JS, during the course of JS Fundamentals of Platzi.",
+        "The classic simon says game made with vanilla JS during the course of JS Fundamentals of Platzi.",
       tags: [{ title: "Course proj.", color: "#4E4AC4" }],
       repository: "https://github.com/baltazarandersson/Fundamentos-JS",
       deploy:
