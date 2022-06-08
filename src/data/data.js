@@ -6,6 +6,7 @@ import glacssifyThumb from "../assets/thumbnails/glacssify.png";
 import simonsaysThumb from "../assets/thumbnails/simonsays.png";
 import lolprofileThumb from "../assets/thumbnails/lolprofile.png";
 import countryQuizThumb from "../assets/thumbnails/countryquiz.png";
+import avostoreThumb from "../assets/thumbnails/avostore.png";
 
 import jsIcon from "../assets/technologies/javascript.svg";
 import html5Icon from "../assets/technologies/html5.svg";
@@ -22,10 +23,24 @@ import reduxIcon from "../assets/technologies/redux.svg";
 export const data = {
   projects: [
     {
+      thumbnail: avostoreThumb,
+      title: "Avostore",
+      description:
+        "Store made along the Next.js course of Platzi. You can check which avocado is your favourite and take it to your cart.",
+      tags: [
+        { title: "Course proj.", color: "#4E4AC4" },
+        { title: "Next", color: "#c17812" },
+        { title: "TypeScript", color: "#2f74c0" },
+        { title: "Tailwind", color: "#0098B3" },
+      ],
+      repository: "https://github.com/baltazarandersson/avostore",
+      deploy: "https://avostore-baltazar.vercel.app/",
+    },
+    {
       thumbnail: countryQuizThumb,
       title: "Country Quiz",
       description:
-        "Challenge from devchallenges.io in where I made a small quiz game to practice with Redux Toolkit and Redux thunks",
+        "Challenge from devchallenges.io. Its quiz game I made to practice with Redux Toolkit and Redux thunks, try to score your best!",
       tags: [
         { title: "Challenge proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -39,7 +54,7 @@ export const data = {
       thumbnail: pokeduxThumb,
       title: "Pokedux",
       description:
-        "Small project made with the Redux course of Platzi in where I learned how to use the Redux store and Redux Toolkit",
+        "Small project made with the Redux course of Platzi. I learned the basics of Redux, how It's lifecycle is , and Redux Toolkit",
       tags: [
         { title: "Course proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -53,7 +68,7 @@ export const data = {
       thumbnail: chattioThumb,
       title: "Chattio",
       description:
-        "Personal project in where I wanted to work with real time requests, learn about user authentication and Tailwind while creating an instant messaging app.",
+        "Personal project in where I wanted to work with real time requests, learn about user authentication while creating an instant messaging app.",
       tags: [
         { title: "Personal proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -67,7 +82,7 @@ export const data = {
       thumbnail: giffiThumb,
       title: "GIFFI",
       description:
-        "A GIF search app made with the full React course of midudev, in where you also learn about Routers, intersection observer API, React context, Vercel and more.",
+        "A GIF search app made with the full React course of @midudev. I learned about Routers, the intersection observer API, React context, Vercel and more.",
       tags: [
         { title: "Course proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -80,7 +95,7 @@ export const data = {
       thumbnail: glacssifyThumb,
       title: "Glacssify",
       description:
-        "This is a tiny project I made to practice the styled-components library.",
+        "This is a tiny project I made to practice the styled-components library. You can create your own 'glass' effect and copy the css.",
       tags: [
         { title: "Personal proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -93,7 +108,7 @@ export const data = {
       thumbnail: forecastThumb,
       title: "Forecast app",
       description:
-        "Challenge from devchallenges.io in where I decided to test my abilities managin API requests and learn React.",
+        "Challenge from devchallenges.io. You can see the current and 5-day forecast from almost everywhere in the world!",
       tags: [
         { title: "Challenge proj.", color: "#4E4AC4" },
         { title: "React", color: "#0098B3" },
@@ -105,7 +120,7 @@ export const data = {
       thumbnail: lolprofileThumb,
       title: "LOL Profile",
       description:
-        "Project made to apply my knowledge of asynchronism to create an app in where you can look for your LoL profile data.",
+        "Project made to apply my knowledge of asynchronism and DOM manipulation to create an app where you can look for your LoL profile data.",
       tags: [{ title: "Personal proj.", color: "#4E4AC4" }],
       repository: "https://github.com/baltazarandersson/riot-league-profile",
       deploy: null,
