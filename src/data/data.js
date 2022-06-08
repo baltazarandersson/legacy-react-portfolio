@@ -141,6 +141,35 @@ export const data = {
       title: "2022",
       months: [
         {
+          title: "June",
+          courses: [
+            {
+              title: "Curso de Next.js",
+              icon: "https://static.platzi.com/media/achievements/badge-nextjs-2259fc68-f86b-486e-bc09-95311a887985.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1991-next/diploma/detalle/",
+            },
+            {
+              title: "Curso de Backend con Node.js: API REST con Express.js",
+              icon: "https://static.platzi.com/media/achievements/badge-backend-nodejs-apirest-expressjs-3fc7bca3-8dcb-459c-9638-12c92d502f5f.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2485-backend-nodejs/diploma/detalle/",
+            },
+            {
+              title: "Curso de Fundamentos de Node.js",
+              icon: "https://static.platzi.com/media/achievements/badge-fundamentos-nodejs-8fd9c0f4-562a-48e9-a85a-3a7db0fa384b.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1759-fundamentos-node/diploma/detalle/",
+            },
+            {
+              title: "Curso Básico de Tailwind",
+              icon: "https://static.platzi.com/media/achievements/piezas-basico-tailwind_badge-e301d7b7-4227-42ff-8aa9-0e1ecbf4b4e1.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2702-tailwind/diploma/detalle/",
+            },
+          ],
+        },
+        {
           title: "May",
           courses: [
             {
