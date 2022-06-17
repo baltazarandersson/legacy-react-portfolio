@@ -43,7 +43,7 @@ export function ProjectCard({ params }) {
           <p className="dark:text-indigo-50">{description}</p>
         </div>
 
-        <div className="flex items-center gap-2 overflow-x-auto w-full max-w-full">
+        <div className="flex items-center gap-2 pb-2 overflow-x-auto w-full max-w-full tags">
           {tags.map((tag) => {
             return (
               <p

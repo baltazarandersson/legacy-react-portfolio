@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "../../hooks/useNavigate";
 import { AnimatedUnderline } from "../AnimatedUnderline";
 import { BiHomeAlt, BiUser, BiCollection, BiFile } from "react-icons/bi";

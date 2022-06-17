@@ -40,3 +40,17 @@ body {
   border-radius: 10px;
   border: 3px solid #e5e4f6;
 }
+
+.tags::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.tags::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tags::-webkit-scrollbar-thumb {
+  background-color: #7471d1;
+  border: none;
+}
