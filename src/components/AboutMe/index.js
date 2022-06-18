@@ -1,6 +1,6 @@
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { data } from "../../data/data";
-import { Icon } from "./Icon";
+import { TechIcon } from "./TechIcon";
 
 export function AboutMe() {
   return (
@@ -37,8 +37,8 @@ export function AboutMe() {
             <h1 className="text-3xl sm:text-4xl font-medium">Technologies</h1>
           </div>
           <div className="flex gap-4 w-full flex-wrap justify-center md:justify-start">
-            {data.technologies.map((el) => {
-              return <Icon props={el} />;
+            {data.technologies.map((tech) => {
+              return <TechIcon IconProps={tech} />;
             })}
           </div>
         </div>
