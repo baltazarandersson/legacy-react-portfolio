@@ -4,8 +4,8 @@ import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { CgArrowDown } from "react-icons/cg";
 import { useNavigate } from "./hooks/useNavigate";
-import { Projects } from "./components/Projects";
-import { Courses } from "./components/Courses";
+import { Projects } from "./containers/Projects";
+import { Courses } from "./containers/Courses";
 import { Circles } from "./components/Circles";
 import { Footer } from "./components/Footer";
 
