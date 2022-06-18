@@ -1,5 +1,6 @@
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { data } from "../../data/data";
+import { Icon } from "./Icon";
 
 export function AboutMe() {
   return (
@@ -31,20 +32,13 @@ export function AboutMe() {
         </div>
       </div>
       <div className="flex w-full items-start">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 w-full">
           <div className="w-full text-center">
             <h1 className="text-3xl sm:text-4xl font-medium">Technologies</h1>
           </div>
           <div className="flex gap-4 w-full flex-wrap justify-between md:justify-start">
             {data.technologies.map((el) => {
-              return (
-                <img
-                  key={el.alt}
-                  className={"h-10 w-12 lg:h-12 lg:w-12 " + el.class}
-                  alt={el.alt}
-                  src={el.icon}
-                />
-              );
+              return <Icon props={el} />;
             })}
           </div>
         </div>

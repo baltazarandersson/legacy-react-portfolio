@@ -19,6 +19,7 @@ import githubIcon from "../assets/technologies/github.png";
 import vercelIcon from "../assets/technologies/vercel.svg";
 import firebaseIcon from "../assets/technologies/firebase.svg";
 import reduxIcon from "../assets/technologies/redux.svg";
+import nextIcon from "../assets/technologies/next.svg";
 
 export const data = {
   projects: [
@@ -144,13 +145,19 @@ export const data = {
           title: "June",
           courses: [
             {
+              title: "Curso Práctico de Next.js",
+              icon: "https://static.platzi.com/media/achievements/badge-practico-next-js--cb0ccb8f-efa3-40a8-b91f-8cf5a4d51eeb.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2690-nextjs-practico/diploma/detalle/",
+            },
+            {
               title: "Curso de Next.js",
               icon: "https://static.platzi.com/media/achievements/badge-nextjs-2259fc68-f86b-486e-bc09-95311a887985.png",
               author: "Platzi",
               link: "https://platzi.com/p/baltazarander/curso/1991-next/diploma/detalle/",
             },
             {
-              title: "Curso de Backend con Node.js: API REST con Express.js",
+              title: "Curso de Node.js: API REST con Express.js",
               icon: "https://static.platzi.com/media/achievements/badge-backend-nodejs-apirest-expressjs-3fc7bca3-8dcb-459c-9638-12c92d502f5f.png",
               author: "Platzi",
               link: "https://platzi.com/p/baltazarander/curso/2485-backend-nodejs/diploma/detalle/",
@@ -311,50 +318,67 @@ export const data = {
   ],
   technologies: [
     {
+      title: "JavaScript",
       alt: "javascript",
       icon: jsIcon,
     },
     {
+      title: "HTML",
       alt: "html5",
       icon: html5Icon,
     },
     {
+      title: "CSS",
       alt: "css3",
       icon: css3Icon,
     },
     {
+      title: "React",
       alt: "react",
       icon: reactIcon,
     },
     {
+      title: "styled-components",
       alt: "styled-components",
       icon: styledComponentsIcon,
     },
     {
+      title: "Tailwind.css",
       alt: "tailwind",
       icon: tailwindIcon,
     },
     {
+      title: "Git",
       alt: "git",
       icon: gitIcon,
     },
     {
+      title: "GitHub",
       alt: "github",
       icon: githubIcon,
       class: "dark:invert",
     },
     {
+      title: "Vercel",
       alt: "vercel",
       icon: vercelIcon,
       class: "dark:invert",
     },
     {
+      title: "Firebase",
       alt: "firebase",
       icon: firebaseIcon,
     },
     {
+      title: "Redux",
       alt: "redux",
       icon: reduxIcon,
+    },
+    {
+      title: "Next.js",
+      alt: "next",
+      icon: nextIcon,
+      class: "dark:invert",
     },
   ],
 };
