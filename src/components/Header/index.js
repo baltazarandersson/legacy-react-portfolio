@@ -20,7 +20,7 @@ export function Header({ currentSection, sectionListRef }) {
   }
 
   return (
-    <header className="fixed flex justify-between shadow-md px-8 w-full md:w-2/3 left-0 md:left-1/2 md:-translate-x-1/2 h-12 bottom-0 md:top-8 backdrop-blur-lg bg-indigo-100/70 dark:bg-indigo-700/70 md:rounded-2xl z-10">
+    <header className="fixed flex justify-between shadow-md px-8 w-full md:w-2/3 left-0 md:left-1/2 md:-translate-x-1/2 h-12 bottom-0 md:top-8 backdrop-blur-lg bg-indigo-100/80 dark:bg-indigo-700/80 md:rounded-2xl z-10">
       <AnimatedUnderline
         currentElement={currentSection}
         className="flex gap-8 md:gap-4 items-center justify-center md:justify-start h-12"

@@ -13,14 +13,14 @@ export function ProjectCard({ params }) {
             src={thumbnail}
           />
         </a>
-        <div className="absolute bottom-0 flex items-center w-full justify-between p-[4px] px-4 bg-indigo-50/60 backdrop-blur-sm">
-          <h1 className="text-xl font-medium dark:text-gray-800">{title}</h1>
+        <div className="absolute bottom-0 flex items-center w-full justify-between p-[4px] px-4 bg-indigo-100/80 dark:bg-indigo-600/70 backdrop-blur-sm">
+          <h1 className="text-xl font-medium dark:text-indigo-50">{title}</h1>
           <div className="flex items-center gap-4">
             <a
               href={repository}
               target="_blank"
               rel="noreferrer"
-              className="hover:scale-125 transition-transform dark:text-gray-800"
+              className="hover:scale-125 transition-transform"
             >
               <FiGithub size="20px" />
             </a>
@@ -29,7 +29,7 @@ export function ProjectCard({ params }) {
                 href={deploy}
                 target="_blank"
                 rel="noreferrer"
-                className="hover:scale-125 transition-transform dark:text-gray-800"
+                className="hover:scale-125 transition-transform"
               >
                 <FiExternalLink size="20px" />
               </a>
@@ -40,7 +40,7 @@ export function ProjectCard({ params }) {
 
       <div className="w-full flex flex-col justify-between p-4 gap-4">
         <div>
-          <p className="dark:text-indigo-50">{description}</p>
+          <p>{description}</p>
         </div>
 
         <div className="flex items-center gap-2 pb-2 overflow-x-auto w-full max-w-full tags">
