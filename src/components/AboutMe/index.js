@@ -36,7 +36,7 @@ export function AboutMe() {
           <div className="w-full text-center">
             <h1 className="text-3xl sm:text-4xl font-medium">Technologies</h1>
           </div>
-          <div className="flex gap-4 w-full flex-wrap justify-center md:justify-start">
+          <div className="flex gap-4 w-full flex-wrap justify-center">
             {data.technologies.map((tech) => {
               return <TechIcon IconProps={tech} />;
             })}
