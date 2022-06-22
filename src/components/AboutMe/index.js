@@ -10,7 +10,7 @@ export function AboutMe() {
           <h1 className="text-3xl sm:text-4xl font-medium">About me</h1>
         </div>
         <div className="relative">
-          <p className="text-xl sm:text-2xl">
+          <p className="text-xl sm:text-2xl text-center md:text-left">
             I am
             <span className="font-semibold text-indigo dark:text-indigo-400">
               {" "}

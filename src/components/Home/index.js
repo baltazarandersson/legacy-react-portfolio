@@ -38,12 +38,12 @@ export function Home() {
         </a>
       </div>
       <div className="flex flex-col gap-4">
-        <h1 className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-medium">
+        <h1 className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-medium text-center md:text-left">
           Hey there, <br />
           I'm{" "}
           <span className="text-indigo dark:text-indigo-400 ">Baltazar</span>
         </h1>
-        <h2 className="text-xl mdÑtext-2xl font-light text-gray-400 dark:text-gray-500">
+        <h2 className="text-xl md:text-2xl font-light text-gray-400 dark:text-gray-500 text-center md:text-left">
           Frontend developer{" "}
         </h2>
         <button
