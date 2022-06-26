@@ -6,7 +6,7 @@ import { CgArrowDown } from "react-icons/cg";
 import { useNavigate } from "./hooks/useNavigate";
 import { Projects } from "./containers/Projects";
 import { Courses } from "./containers/Courses";
-import { Circles } from "./components/Circles";
+import { BgBubbles } from "./components/BgBubbles";
 import { Footer } from "./components/Footer";
 
 const DEFAULT_THRESHOLD = 0.5;
@@ -108,7 +108,7 @@ export function App() {
 
       <Footer />
 
-      <Circles />
+      <BgBubbles />
     </>
   );
 }

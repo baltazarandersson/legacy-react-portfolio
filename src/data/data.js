@@ -145,6 +145,12 @@ export const data = {
           title: "June",
           courses: [
             {
+              title: "Curso de Next.js y Firebase",
+              icon: "https://midu.dev/favicon/apple-touch-icon.png",
+              author: "midudev",
+              link: "https://youtube.com/playlist?list=PLV8x_i1fqBw1VR86y4C72xMGJ8ifjBwJ6",
+            },
+            {
               title: "Curso Práctico de Next.js",
               icon: "https://static.platzi.com/media/achievements/badge-practico-next-js--cb0ccb8f-efa3-40a8-b91f-8cf5a4d51eeb.png",
               author: "Platzi",
