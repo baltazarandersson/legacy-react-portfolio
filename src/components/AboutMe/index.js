@@ -38,7 +38,7 @@ export function AboutMe() {
           </div>
           <div className="flex gap-4 w-full flex-wrap justify-center">
             {data.technologies.map((tech) => {
-              return <TechIcon IconProps={tech} />;
+              return <TechIcon key={tech.alt} IconProps={tech} />;
             })}
           </div>
         </div>
