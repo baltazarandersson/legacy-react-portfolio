@@ -105,10 +105,8 @@ export function App() {
           <CgArrowDown size="28px" className="rotate-180 text-indigo-50" />
         </button>
       </main>
-
-      <Footer />
-
       <BgBubbles />
+      <Footer />
     </>
   );
 }
