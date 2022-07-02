@@ -6,7 +6,7 @@ export function ProjectCard({ params }) {
   return (
     <div className="flex flex-col w-full rounded-2xl bg-indigo-100 dark:bg-indigo-700 border-2 border-indigo-100 dark:border-indigo-700 shadow-sm">
       <div className="relative rounded-2xl overflow-hidden">
-        <a href={deploy} target="_blank" rel="noreferrer">
+        <a href={deploy || repository} target="_blank" rel="noreferrer">
           <img
             className="w-full object-contain hover:brightness-[80%] duration-150"
             alt="app"
