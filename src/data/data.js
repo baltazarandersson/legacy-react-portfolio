@@ -7,6 +7,7 @@ import simonsaysThumb from "../assets/thumbnails/simonsays.png";
 import lolprofileThumb from "../assets/thumbnails/lolprofile.png";
 import countryQuizThumb from "../assets/thumbnails/countryquiz.png";
 import avostoreThumb from "../assets/thumbnails/avostore.png";
+import devtterThumb from "../assets/thumbnails/devtter.png";
 
 import jsIcon from "../assets/technologies/javascript.svg";
 import html5Icon from "../assets/technologies/html5.svg";
@@ -24,15 +25,28 @@ import nextIcon from "../assets/technologies/next.svg";
 export const data = {
   projects: [
     {
+      thumbnail: devtterThumb,
+      title: "Devtter",
+      description:
+        "My biggest project so far. Devtter is a functional Twitter clone made within the Next.js course of @midudev",
+      tags: [
+        { title: "Course project", color: "#625ecf" },
+        { title: "Next.js", color: "#c17812" },
+        { title: "styled-jsx", color: "#189e5c" },
+        { title: "Firebase", color: "#bfa31f" },
+      ],
+      repository: "https://github.com/baltazarandersson/nextjs-twitter-clone",
+    },
+    {
       thumbnail: avostoreThumb,
       title: "Avostore",
       description:
         "Store made along the Next.js course of Platzi. You can check which avocado is your favourite and take it to your cart.",
       tags: [
-        { title: "Course proj.", color: "#4E4AC4" },
-        { title: "Next", color: "#c17812" },
+        { title: "Course project", color: "#625ecf" },
+        { title: "Next.js", color: "#c17812" },
         { title: "TypeScript", color: "#2f74c0" },
-        { title: "Tailwind", color: "#0098B3" },
+        { title: "Tailwind", color: "#17bab9" },
       ],
       repository: "https://github.com/baltazarandersson/avostore",
       deploy: "https://avostore-baltazar.vercel.app/",
@@ -43,10 +57,10 @@ export const data = {
       description:
         "Challenge from devchallenges.io. Its quiz game I made to practice with Redux Toolkit and Redux thunks, try to score your best!",
       tags: [
-        { title: "Challenge proj.", color: "#4E4AC4" },
-        { title: "React", color: "#0098B3" },
+        { title: "Challenge project", color: "#625ecf" },
+        { title: "React", color: "#3398e6" },
         { title: "Redux", color: "#764abc" },
-        { title: "Tailwind", color: "#0098B3" },
+        { title: "Tailwind", color: "#17bab9" },
       ],
       repository: "https://github.com/baltazarandersson/country-quiz",
       deploy: "https://countryquiz.vercel.app/",
@@ -57,10 +71,9 @@ export const data = {
       description:
         "Small project made with the Redux course of Platzi. I learned the basics of Redux, how It's lifecycle is , and Redux Toolkit",
       tags: [
-        { title: "Course proj.", color: "#4E4AC4" },
-        { title: "React", color: "#0098B3" },
+        { title: "Course project", color: "#625ecf" },
+        { title: "React", color: "#3398e6" },
         { title: "Redux", color: "#764abc" },
-        { title: "Semantic.ui", color: "#35bdb2" },
       ],
       repository: "https://github.com/baltazarandersson/pokedux",
       deploy: "https://pokedux.vercel.app/",
@@ -71,10 +84,10 @@ export const data = {
       description:
         "Personal project in where I wanted to work with real time requests, learn about user authentication while creating an instant messaging app.",
       tags: [
-        { title: "Personal proj.", color: "#4E4AC4" },
-        { title: "React", color: "#0098B3" },
-        { title: "Tailwind", color: "#0098B3" },
-        { title: "Firebase", color: "#AD7F01" },
+        { title: "Personal project", color: "#625ecf" },
+        { title: "React", color: "#3398e6" },
+        { title: "Tailwind", color: "#17bab9" },
+        { title: "Firebase", color: "#bfa31f" },
       ],
       repository: "https://github.com/baltazarandersson/chattio-app",
       deploy: "https://chattio.vercel.app/",
@@ -85,9 +98,9 @@ export const data = {
       description:
         "A GIF search app made with the full React course of @midudev. I learned about Routers, the intersection observer API, React context, Vercel and more.",
       tags: [
-        { title: "Course proj.", color: "#4E4AC4" },
-        { title: "React", color: "#0098B3" },
-        { title: "Firebase", color: "#AD7F01" },
+        { title: "Course project", color: "#625ecf" },
+        { title: "React", color: "#3398e6" },
+        { title: "Firebase", color: "#bfa31f" },
       ],
       repository: "https://github.com/baltazarandersson/react-giffi-app",
       deploy: "https://giffi-baltazar.vercel.app/",
@@ -98,8 +111,8 @@ export const data = {
       description:
         "This is a tiny project I made to practice the styled-components library. You can create your own 'glass' effect and copy the css.",
       tags: [
-        { title: "Personal proj.", color: "#4E4AC4" },
-        { title: "React", color: "#0098B3" },
+        { title: "Personal project", color: "#625ecf" },
+        { title: "React", color: "#3398e6" },
         { title: "styled-components", color: "#9b4e88" },
       ],
       repository: "https://github.com/baltazarandersson/react-glacssify",
@@ -111,8 +124,8 @@ export const data = {
       description:
         "Challenge from devchallenges.io. You can see the current and 5-day forecast from almost everywhere in the world!",
       tags: [
-        { title: "Challenge proj.", color: "#4E4AC4" },
-        { title: "React", color: "#0098B3" },
+        { title: "Challenge project", color: "#625ecf" },
+        { title: "React", color: "#3398e6" },
       ],
       repository: "https://github.com/baltazarandersson/react-weather-forecast",
       deploy: "https://forecast-baltazar.vercel.app/",
@@ -122,16 +135,15 @@ export const data = {
       title: "LOL Profile",
       description:
         "Project made to apply my knowledge of asynchronism and DOM manipulation to create an app where you can look for your LoL profile data.",
-      tags: [{ title: "Personal proj.", color: "#4E4AC4" }],
+      tags: [{ title: "Personal project", color: "#625ecf" }],
       repository: "https://github.com/baltazarandersson/riot-league-profile",
-      deploy: null,
     },
     {
       thumbnail: simonsaysThumb,
       title: "Simon says",
       description:
         "The classic simon says game made with vanilla JS during the course of JS Fundamentals of Platzi.",
-      tags: [{ title: "Course proj.", color: "#4E4AC4" }],
+      tags: [{ title: "Course project", color: "#625ecf" }],
       repository: "https://github.com/baltazarandersson/Fundamentos-JS",
       deploy:
         "https://baltazarandersson.github.io/Fundamentos-JS/JUEGO_JS/index.html",
