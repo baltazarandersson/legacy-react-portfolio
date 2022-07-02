@@ -27,10 +27,10 @@ export function BgBubbles() {
       <Bubble props="p-[130px] top-[625%] left-[20%]" />
       <Bubble props="p-[30px] top-[665%] left-[80%]" />
       <Bubble props="p-[30px] top-[665%] left-[80%]" />
-      <Bubble props="p-[120px] top-[700%] left-[60%]" />
+      <Bubble props="p-[120px] top-[700%] left-[30%] sm:left-[40%] md:left-[60%]" />
       <Bubble props="p-[20px] top-[750%] left-[10%]" />
       <Bubble props="p-[60px] top-[780%] left-[40%]" />
-      <Bubble props="p-[40px] top-[800%] left-[90%]" />
+      <Bubble props="p-[40px] top-[800%] left-[70%] md:left-[85%]" />
       <Bubble props="p-[90px] top-[830%] left-[10%]" />
       <Bubble props="p-[30px] top-[890%] left-[80%]" />
       <Bubble props="p-[100px] top-[930%] left-[20%]" />
