@@ -36,6 +36,7 @@ export const data = {
         { title: "Firebase", color: "#bfa31f" },
       ],
       repository: "https://github.com/baltazarandersson/nextjs-twitter-clone",
+      deploy: "https://devtter-next.vercel.app/",
     },
     {
       thumbnail: avostoreThumb,
