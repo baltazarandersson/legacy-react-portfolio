@@ -155,6 +155,17 @@ export const data = {
       title: "2022",
       months: [
         {
+          title: "July",
+          courses: [
+            {
+              title: "Curso Profesional de Next.js",
+              icon: "https://static.platzi.com/media/achievements/piezas-profesional-nextjs_badge-c9a806c6-e240-45da-81da-c206b0611e84.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2707-profesional-nextjs/diploma/detalle/",
+            },
+          ],
+        },
+        {
           title: "June",
           courses: [
             {
