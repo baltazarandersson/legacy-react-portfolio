@@ -3,12 +3,12 @@ import { CourseCard } from "./CourseCard";
 
 export function CoursesTimeline() {
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col gap-16 w-full items-center">
       {data.qualification.map((year) => {
         return (
           <div
             key={year.title}
-            className="flex flex-col items-center w-full h-auto gap-8"
+            className="flex flex-col items-center w-full lg:w-3/4 xl:w-2/3 2xl:w-2/4 h-auto gap-8"
           >
             <h1 className="text-3xl font-semibold text-indigo-50 px-4 sm:px-8 py-1 sm:py-2 bg-indigo-400 dark:bg-indigo-600 rounded-xl">
               {year.title}
