@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { useNavigate } from "../../hooks/useNavigate";
-import { AnimatedUnderline } from "../AnimatedUnderline";
 import { BiHomeAlt, BiUser, BiCollection, BiFile } from "react-icons/bi";
 import { MdOutlineNightsStay, MdOutlineWbSunny } from "react-icons/md";
+import { AnimatedUnderline } from "../AnimatedUnderline";
+import { useNavigate } from "hooks/useNavigate";
 
 const sections = ["home", "about me", "projects", "qualification"];
 

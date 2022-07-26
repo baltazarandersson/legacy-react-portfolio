@@ -1,5 +1,5 @@
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import { data } from "../../data/data";
+import { data } from "data/data";
 import { TechIcon } from "./TechIcon";
 
 export function AboutMe() {

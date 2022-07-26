@@ -1,4 +1,4 @@
-import { data } from "../../data/data";
+import { data } from "data/data";
 import { CourseCard } from "./CourseCard";
 
 export function CoursesTimeline() {

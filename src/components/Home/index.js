@@ -1,7 +1,7 @@
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { SiPlatzi } from "react-icons/si";
 import { CgMouse, CgArrowDown } from "react-icons/cg";
-import profilePicture from "../../assets/pictures/me.png";
+import profilePicture from "assets/pictures/me.png";
 
 export function Home() {
   function handleScroll() {

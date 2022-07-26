@@ -158,6 +158,12 @@ export const data = {
           title: "July",
           courses: [
             {
+              title: "Curso de JS Engine (V8) y el Navegador",
+              icon: "https://static.platzi.com/media/achievements/badge-javascript-engine-v8-navegador-de67cba4-0548-4361-9c6a-1a25aa96fa2a.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1798-javascript-navegador/diploma/detalle/",
+            },
+            {
               title: "Curso Profesional de Next.js",
               icon: "https://static.platzi.com/media/achievements/piezas-profesional-nextjs_badge-c9a806c6-e240-45da-81da-c206b0611e84.png",
               author: "Platzi",
