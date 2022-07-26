@@ -9,7 +9,7 @@ export function Qualification() {
         target="_blank"
         rel="noreferrer"
         href="https://platzi.com/p/baltazarander/ruta/100-escuela-javascript/diploma/detalle/"
-        className="md:w-3/4 lg:w-2/3 2xl:w-2/4 shadow-md cursor-pointer hover:scale-[102%] transition-transform overflow-hidden rounded-md"
+        className="mb-24 sm:mb-0 md:w-3/4 lg:w-2/3 2xl:w-2/4 shadow-md cursor-pointer hover:scale-[102%] transition-transform overflow-hidden rounded-md"
       >
         <img src={certification} alt="certification" className="w-full" />
       </a>
