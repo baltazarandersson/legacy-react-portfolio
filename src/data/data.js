@@ -158,6 +158,18 @@ export const data = {
           title: "July",
           courses: [
             {
+              title: "Curso de Asincronismo con JavaScript",
+              icon: "https://static.platzi.com/media/achievements/badge-asincro-js-9f17b092-47d0-4c8a-a59d-67714aa18db3.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/3175-asincronismo-js/diploma/detalle/",
+            },
+            {
+              title: "Curso de Node.js: Base de Datos con MongoDB y WebSockets",
+              icon: "https://static.platzi.com/media/achievements/piezas-nodejs-base-de-datos-mongodb-websockets_badge-74ce0c20-7b2f-4550-93e5-1f1158.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/1689-nodejs-mongo-websockets/diploma/detalle/",
+            },
+            {
               title: "Curso de JS Engine (V8) y el Navegador",
               icon: "https://static.platzi.com/media/achievements/badge-javascript-engine-v8-navegador-de67cba4-0548-4361-9c6a-1a25aa96fa2a.png",
               author: "Platzi",
@@ -285,7 +297,7 @@ export const data = {
               link: "https://platzi.com/p/baltazarander/curso/1807-scope/diploma/detalle/",
             },
             {
-              title: "Curso de Asincronismo con JavaScript",
+              title: "Curso de Asincronismo con JavaScript 2019",
               icon: "https://static.platzi.com/media/achievements/badge-asincronismo-javascript-3f44d51e-209e-4e47-a228-4142d049525c.png",
               author: "Platzi",
               link: "https://platzi.com/p/baltazarander/curso/1789-asincronismo-js/diploma/detalle/",
