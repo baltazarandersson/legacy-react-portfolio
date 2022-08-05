@@ -155,6 +155,17 @@ export const data = {
       title: "2022",
       months: [
         {
+          title: "August",
+          courses: [
+            {
+              title: "Curso Profesional de Consumo de API REST",
+              icon: "https://static.platzi.com/media/achievements/curso-profesional-consumo-api-rest-javascript_badge-842a9d5d-8995-48e7-8582-73b1890.png",
+              author: "Platzi",
+              link: "https://platzi.com/p/baltazarander/curso/2942-api-profesional/diploma/detalle/",
+            },
+          ],
+        },
+        {
           title: "July",
           courses: [
             {
